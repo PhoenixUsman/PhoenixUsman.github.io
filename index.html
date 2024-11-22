@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nav Tabs</title>
+    <link rel="stylesheet" href="Library/bootstrap-5.2.3/css/bootstrap.css">
+    <link rel="stylesheet" href="Css/Stylesheet1.css">
+    <link rel="stylesheet" href="fontawesome-free-6.6.0-web/css/all.css">
+</head>
+
+<body>
+    <!-- PANEL 1 Main Start Page (Navbar and carousel) -->
+    <div class="container-lulli " id="Home" >
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark bg-gradient">
+            <div class="container w-100 ">
+                <a class="navbar-brand" href="#">TechStop</a>
+                <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavId">
+                    <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#Home" aria-current="page">Home
+                                <span class="visually-hidden">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Teams">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Teams">Team</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#mynigga" id="mynigga" data-bs-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">Products</a>
+                            <div class="dropdown-menu" aria-labelledby="mynigga">
+                                <a class="dropdown-item" href="#Products">Latest Mobile Phones</a>
+                                <a class="dropdown-item" href="#Products">Latest Laptops</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Contact">Contact Us</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex my-2 gap-2 my-lg-0">
+                        <input class="form-control me-sm-2" type="text" placeholder="Search" />
+                        <button class="btn border-white text-white my-2 my-sm-0" type="submit">
+                            Search
+                        </button>
+                        <button class="btn text-white bg-info my-2 my-sm-0">
+                            Login
+                        </button>
+                        <button class="btn w-50 text-white bg-info my-2 my-sm-0">
+                            Sign Up
+                        </button>
+
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+
+
+        <div id="Carousal-main-page" class="carousel slide " data-bs-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-bs-target="#Carousal-main-page" data-bs-slide-to="0" class="active" aria-current="true"
+                    aria-label="First slide"></li>
+                <li data-bs-target="#Carousal-main-page" data-bs-slide-to="1" aria-label="Second slide"></li>
+                <li data-bs-target="#Carousal-main-page" data-bs-slide-to="2" aria-label="Third slide"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                    <img src="Images/carousel-1.jpg" class="w-100 d-block" alt="First slide" />
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1>Latest Laptops and Accessories</h1>
+                        <h3>We provide best deals</h3>
+                        <div>
+                            <button class="btn btn-danger">Gaming</button>
+                            <button class="btn btn-primary">Technology in Future</button>
+                            <button class="btn btn-success">TechFun</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="Images/carousel-2.jpg" class="w-100 d-block" alt="Second slide" />
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1>Best software solutions</h1>
+                        <h3>We provide best deals</h3>
+                        <div>
+                            <button class="btn btn-danger">Gaming</button>
+                            <button class="btn btn-primary">Technology in Future</button>
+                            <button class="btn btn-success">TechFun</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="Images/carousel-3.jpg" class="w-100 d-block" alt="Third slide" />
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1>Mobile Phones and Accessories</h1>
+                        <h3>We provide best deals</h3>
+                        <div>
+                            <button class="btn btn-danger">Gaming</button>
+                            <button class="btn btn-primary">Technology in Future</button>
+                            <button class="btn btn-success">TechFun</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#Carousal-main-page"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#Carousal-main-page"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <!-- PANEL 2 Products -->
+    <div class="container.lulli " id="Products">
+        <div class="p-5 d-flex justify-content-center">
+            <h1 class="text-secondary">Latest Mobile Phones</h1>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="card h-100 border rounded shadow" style="max-width: 650px;">
+                    <div class="row g-0">
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <p class="text-success">Google</p>
+                                <h4 class="card-title">Pixel 7 pro</h4>
+                                <p class="card-text">
+                                    <small class="text-muted">Oct 6, 2022</small>
+                                </p>
+                                <p class="card-text">
+                                    Type: LTPO AMOLED, 120Hz, HDR10+, 1500 nits Size: 6.7 inches,Resolution: 1440 x 3120
+                                    pixels, PLATFORM:...
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="Images/phone-1.jpeg" class="img-fluid rounded-start w-100 h-100"
+                                alt="Card title" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 border rounded shadow" style="max-width: 650px;">
+                    <div class="row g-0">
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <p class="text-primary">Apple</p>
+                                <h4 class="card-title">Iphone 14 Pro Max</h4>
+                                <p class="card-text">
+                                    <small class="text-muted">Sep 16, 2022</small>
+                                </p>
+                                <p class="card-text">
+                                    Type: LTPO AMOLED, 120Hz, HDR10+, 1500 nits Size: 6.7 inches,Resolution: 1440 x 3120
+                                    pixels, PLATFORM:...
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="Images/phone-2.jpeg" class="img-fluid rounded-start" alt="Card title" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 border rounded shadow" style="max-width: 650px;">
+                    <div class="row g-0">
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <p class="text-success">Samsung</p>
+                                <h4 class="card-title">S23 Ultra</h4>
+                                <p class="card-text">
+                                    <small class="text-muted">Feb 17, 2023</small>
+                                </p>
+                                <p class="card-text">
+                                    Type: LTPO AMOLED, 120Hz, HDR10+, 1500 nits Size: 6.7 inches,Resolution: 1440 x 3120
+                                    pixels, PLATFORM:...
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="Images/phone-3.jpeg" class="img-fluid rounded-start" alt="Card title" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="p-5 d-flex justify-content-center">
+            <h1 class="text-warning">Latest Laptops</h1>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="card h-100 border rounded shadow" style="max-width: 650px;">
+                    <div class="row g-0">
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <p class="text-success">Asus</p>
+                                <h4 class="card-title">Zenbook Pro Duo</h4>
+                                <p class="card-text">
+                                    <small class="text-muted">Sep 06, 2022</small>
+                                </p>
+                                <p class="card-text">
+                                    Type: LTPO AMOLED, 120Hz, HDR10+, 1500 nits Size: 6.7 inches,Resolution: 1440 x 3120
+                                    pixels, PLATFORM:...
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="Images/laptop-1.jpeg" class="img-fluid rounded-start" alt="Card title" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 border rounded shadow" style="max-width: 650px;">
+                    <div class="row g-0">
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <p class="text-success">XPS 13 Plus</p>
+                                <h4 class="card-title">Pixel 7 pro</h4>
+                                <p class="card-text">
+                                    <small class="text-muted">April 18,2022</small>
+                                </p>
+                                <p class="card-text">
+                                    Type: LTPO AMOLED, 120Hz, HDR10+, 1500 nits Size: 6.7 inches,Resolution: 1440 x 3120
+                                    pixels, PLATFORM:...
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="Images/laptop-2.jpeg" class="img-fluid rounded-start" alt="Card title" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 border rounded shadow" style="max-width: 650px;">
+                    <div class="row g-0">
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <p class="text-success">Msi</p>
+                                <h4 class="card-title">Stealth 15 Raptor Lake</h4>
+                                <p class="card-text">
+                                    <small class="text-muted">Early 2023</small>
+                                </p>
+                                <p class="card-text">
+                                    Type: LTPO AMOLED, 120Hz, HDR10+, 1500 nits Size: 6.7 inches,Resolution: 1440 x 3120
+                                    pixels, PLATFORM:...
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="Images/laptop-3.jpeg" class="img-fluid rounded-start" alt="Card title" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- PANEL 3 Team -->
+    <div class="container " id="Teams">
+        <div class="p-5 d-flex justify-content-center">
+            <h1 class="">Meet Our Team</h1>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="card h-100 border rounded shadow">
+                    <img class="card-img-top" src="Images/Team-1.jpg" alt="Title" />
+                    <div class="card-body">
+                        <h4 class="card-title">Michael Jackson</h4>
+                        <p class="card-text">Lead dancer in our team</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col">
+                <div class="card  border rounded shadow">
+                    <img class="card-img-top" src="Images/Team-2.jpg" alt="Title" />
+                    <div class="card-body">
+                        <h4 class="card-title">Gal Gadot</h4>
+                        <p class="card-text">Famous as wonder women (no-one calls her by her real name)</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col  border rounded shadow">
+                <div class="card">
+                    <img class="card-img-top" src="Images/Team-3.jpg" alt="Title" />
+                    <div class="card-body">
+                        <h4 class="card-title">Robert Downy Jr.</h4>
+                        <p class="card-text">Well he's the tech master</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <!-- PANEL 4 Footer -->
+    <div class="container.lulli bg-dark bg-gradient">
+        <div class="d-flex flex-direction-row justify-content-center">
+            <p class="p-1 text-white">&#169; 2021-2023 TechStop, Inc.
+            <ul class="d-flex flex-direction-row">
+                <li class="p-1 text-white">
+                    <p class="text-primary"><a class="text-decoration-none" target="_blank"
+                            href="https://www.google.com/search?q=Privacy&rlz=1C1GCEA_enPK1118PK1118&oq=Privacy&gs_lcrp=EgZjaHJvbWUyDAgAEEUYORixAxiABDIPCAEQABhDGLEDGIAEGIoFMgwIAhAAGEMYgAQYigUyEggDEAAYQxiDARixAxiABBiKBTIMCAQQABgUGIcCGIAEMgcIBRAAGIAEMgcIBhAAGIAEMgcIBxAAGIAEMgcICBAAGIAEMgcICRAAGIAE0gEIMzQ3OGowajeoAgCwAgA&sourceid=chrome&ie=UTF-8">Privacy</a>
+                    </p>
+                </li>&nbsp; &nbsp; &nbsp; <li class="p-1 text-white">
+                    <p class=" text-primary"><a class="text-decoration-none" target="_blank"
+                            href="https://www.google.com/search?q=Terms&rlz=1C1GCEA_enPK1118PK1118&oq=Terms&gs_lcrp=EgZjaHJvbWUyDAgAEEUYORixAxiABDIPCAEQABhDGLEDGIAEGIoFMgwIAhAAGEMYgAQYigUyDAgDEAAYQxiABBiKBTIMCAQQABhDGIAEGIoFMgwIBRAAGEMYgAQYigUyEggGEAAYQxiDARixAxiABBiKBTIHCAcQABiABDIHCAgQABiABDIHCAkQABiABNIBCDM5NTlqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8">
+                            Terms
+                        </a>
+                    </p>
+                </li>
+            </ul>
+            </p>
+        </div>
+        <!-- <br> -->
+        <div class=" d-flex flex-direction-row justify-content-center " id="Contact">
+            <a href="https://www.facebook.com/" target="_blank">
+                <i class="fab fa-facebook text-white p-1 h4 bg-secondary rounded-circle"></i>
+            </a>
+            <a href="https://twitter.com/?lang=en" target="_blank">
+                <i class="fab fa-instagram text-white p-1 h4 bg-secondary rounded-circle"></i>
+            </a>
+            <a href="https://www.instagram.com/" target="_blank">
+                <i class="fab fa-twitter text-white p-1 h4 bg-secondary rounded-circle"></i>
+            </a>
+            <a href="https://www.whatsapp.com/" target="_blank">
+                <i class="fab fa-whatsapp text-white p-1 h4 bg-secondary rounded-circle"></i>
+            </a>
+        </div>
+    </div>
+    <script src="Library/bootstrap-5.2.3/js/bootstrap.js"></script>
+</body>
+
+</html>
